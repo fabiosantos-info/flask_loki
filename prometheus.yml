@@ -7,4 +7,4 @@ scrape_configs:
       - targets: ['localhost:9090']
   - job_name: 'flask_application'
     static_configs:
-      - targets: ['10.0.6.2:5000']
+      - targets: ['10.0.0.52:5000']
